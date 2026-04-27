@@ -5,29 +5,29 @@
 This project analyzes customer churn behavior using a banking dataset containing customer demographic, financial, and account activity information. The dataset includes attributes such as age, credit score, geography, account balance, number of products, and customer activity status. The goal is to explore patterns in customer behavior and identify key factors associated with churn. The analysis is performed using SQL for data exploration and Power BI for interactive visualization.
 
 ## ❓ **Problem Statement**
----
+
 The bank is experiencing customer attrition and wants to understand why customers are leaving. The objective of this analysis is to identify the key drivers of churn by comparing churned and retained customers across demographic, financial, and behavioral factors, and to provide data-driven recommendations to improve customer retention.
 
 ## 📊 **Understanding Data**
----
+
 The dataset contains customer demographic, financial, and account activity information, including whether each customer has churned (Exited).
 
 ## 🧹 **Data Preparation**
----
+
 Data was cleaned and structured for analysis, including handling irrelevant columns and creating grouped features for better insights.
 
 ## 🔍 **Exploratory Data Analysis**
----
+
 Analysis was performed to compare churned vs non-churned customers across key variables such as age, balance, geography, and engagement.
 
 ## 📈 **Power BI Dashboards**
----
+
 An interactive dashboard was built to visualize churn rates, customer segments, and key drivers of churn for business interpretation.
 
 ## 💡 **Recommendations**
----
+
 Key patterns in churn behavior were identified, and actionable recommendations were provided to improve customer retention.
 
 ## ⚠️ **Data Limitations & Future Work**
----
+
 The analysis is based on a single dataset and does not include external behavioral or time-series data. Future work could include predictive modeling.
