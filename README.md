@@ -51,7 +51,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 
 ### **3. Checking Null and Outlier Data**
 * There was no NULL values within the datset
-* There is no outlier data, areas of intrest were: creditscore, age, balance, numofproducts, estimatedsalary, and all boolean coloumns that were previously and INT64
+* There is no outlier data, areas of intrest were: creditscore, age, balance, numofproducts, estimatedsalary, and all boolean columns that were previously and INT64
 
 ### **4. Data Standardization**
 * Standardized column names to lowercase with snake_case formatting for consistency  
@@ -59,7 +59,10 @@ The bank is experiencing customer attrition and wants to understand why customer
 * Values for Balance and EstimatedSalary are assumed to be in EUR based on dataset context
 
 ### **5. Feature Engineering**
-*
+* Created Age groups (18-30, 31-50, 51+)
+* Developed Balance groups (Low/Meduim/High)
+* Organized Tenure groups (New = 0-2, Mid = 3-6, Long-Term = 7+)
+* Generated NumOfProducts groups (1 product, 2-3 products, 4 products)
 
 ## 🔍 **Exploratory Data Analysis**
 
