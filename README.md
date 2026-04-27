@@ -10,7 +10,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 
 ## 📊 **Understanding Data**
 
-The dataset contains customer demographic, financial, and account activity information, including whether each customer has churned (Exited).
+find patterns in the data 
 
 ## 🧹 **Data Preparation**
 
