@@ -1,8 +1,7 @@
 # 🏦 **Bank Customer Churn Analysis**
----
 
 ## 📌 **Project Overview**
----
+
 This project analyzes customer churn behavior using a banking dataset containing customer demographic, financial, and account activity information. The dataset includes attributes such as age, credit score, geography, account balance, number of products, and customer activity status. The goal is to explore patterns in customer behavior and identify key factors associated with churn. The analysis is performed using SQL for data exploration and Power BI for interactive visualization.
 
 ## ❓ **Problem Statement**
