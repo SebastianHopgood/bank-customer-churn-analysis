@@ -12,7 +12,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 
 ### **1. Data Structure**
 * The dataset contains 10,000+ customer records
-* Each row represents 1 customer
+* Each row represents 1 customer (no duplicates)
 * Each column represents customer attributes such as demographics, account information, and activity status
 
 ### **2. Column Overview**
@@ -40,7 +40,26 @@ The bank is experiencing customer attrition and wants to understand why customer
 
 ## 🧹 **Data Preparation**
 
-Data was cleaned and structured for analysis, including handling irrelevant columns and creating grouped features for better insights.
+### **1. Removing Irrelevant Columns**
+* Removing 'RowNumber' becuase i already have a unique ID for every customer and it is irrelvant for analysis
+* Removing Surname because it doesnt help customer analysis
+
+### **2. Fixing Data Types**
+* Changing 'HasCrCard' datatype from INT64 → BOOL
+* Changing 'IsActiveMember' datatype from INT64 → BOOL
+* Changing 'Exited' datatype from INT64 → BOOL
+
+### **3. Checking Null and Outlier Data**
+* There was no NULL values within the datset
+* There is no outlier data, areas of intrest were: creditscore, age, balance, numofproducts, estimatedsalary, and all boolean coloumns that were previously and INT64
+
+### **4. Data Standardization**
+* Standardized column names to lowercase with snake_case formatting for consistency  
+* Example: HasCrCard → has_credit_card, NumOfProducts → num_of_products
+* Values for Balance and EstimatedSalary are assumed to be in EUR based on dataset context
+
+### **5. Feature Engineering**
+*
 
 ## 🔍 **Exploratory Data Analysis**
 
