@@ -67,7 +67,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 * Generated NumOfProducts groups (1 product, 2-3 products, 4 products)
 
 **Picture of Data Preperation Code:**
-* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/7755d51ab5c63ae71dab34c56cb862c77ad8fe12/images/code%20pictures/cleanning_raw_data_readme_picture.png)
+* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/9ee4b1eb1139884356b5c116794e67d0c20a23be/images/code%20pictures/cleaning_raw_data_readme_picture.png)
 
 ## 🔍 **Exploratory Data Analysis**
 
