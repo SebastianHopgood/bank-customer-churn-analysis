@@ -66,7 +66,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 * Organized Tenure groups (New = 0-2, Mid = 3-6, Long-Term = 7+)
 * Generated NumOfProducts groups (1 product, 2-3 products, 4 products)
 
-**Picture of Data Preperation Code:**
+**Picture of Data Preperation Query:**
 * ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/9ee4b1eb1139884356b5c116794e67d0c20a23be/images/code%20pictures/cleaning_raw_data_readme_picture.png)
 
 ## 🔍 **Exploratory Data Analysis**
@@ -99,6 +99,13 @@ This section focuses on identifying key patterns and relationships in the data t
 * Customers with 2–3 products are the most loyal (12% churn), while those with only one product are twice as likely to leave (28%), and those with 4+ products show a 100% churn rate.
 * Note, 4+ products has a low sample size of 60/10000 customers which is not enough to determine an accurate answer.
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/num_of_products_vs_churn_rate.sql)
+
+### **7. Creating a Risk Score Calculator**
+* By using the previous 6 analysis queries I was able to develop a calculator to predict weather customers are at high risk or low risk.
+* Here are the percentages each risk group came out to: Critical Risk = 45%, Medium Risk = 19%, Low Risk = 8%.
+
+**Picture of Risk Calculator Query:**
+* ![image alt]()
 
 ## 📈 **Power BI Dashboards**
 
