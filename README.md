@@ -32,6 +32,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 * Exited → true/false for if customer has left the bank (churn)
 
 ### **3. Basic Dataset Snapshot** (no deep analysis)
+* Overall churn rate = 20.37%
 * Customers exist across 3 different countries (Germany, France, Spain)
 * Average customer age is 38.9 with a wide range which includes 18 - 92
 * Mix of long and short staying customers
@@ -45,9 +46,9 @@ The bank is experiencing customer attrition and wants to understand why customer
 * Removing Surname because it doesnt help customer analysis
 
 ### **2. Fixing Data Types**
-* Changing 'HasCrCard' datatype from INT64 → BOOL
-* Changing 'IsActiveMember' datatype from INT64 → BOOL
-* Changing 'Exited' datatype from INT64 → BOOL
+* Changing 'HasCrCard' datatype from BOOL → INT64
+* Changing 'IsActiveMember' datatype from INT64 → INT64
+* Changing 'Exited' datatype from BOOL → INT64
 
 ### **3. Checking Null and Outlier Data**
 * There was no NULL values within the datset
