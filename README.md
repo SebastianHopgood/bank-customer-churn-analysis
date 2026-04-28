@@ -101,11 +101,11 @@ This section focuses on identifying key patterns and relationships in the data t
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/num_of_products_vs_churn_rate.sql)
 
 ### **7. Creating a Risk Score Calculator**
-* By using the previous 6 analysis queries I was able to develop a calculator to predict weather customers are at high risk or low risk.
+* By using the previous 6 analysis queries I was able to develop a calculator to predict weather customers are at high risk or low risk. I added 2 columns 'risk_score' and 'risk_group'.
 * Here are the percentages each risk group came out to: Critical Risk = 45%, Medium Risk = 19%, Low Risk = 8%.
 
 **Picture of Risk Calculator Query:**
-* ![image alt]()
+* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/f39ea00025efa90e2e411677a476fe3bdafc4b78/images/code%20pictures/risk_calculator_readme_picture.png)
 
 ## 📈 **Power BI Dashboards**
 
