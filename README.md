@@ -70,8 +70,31 @@ The bank is experiencing customer attrition and wants to understand why customer
 * ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/9ee4b1eb1139884356b5c116794e67d0c20a23be/images/code%20pictures/cleaning_raw_data_readme_picture.png)
 
 ## 🔍 **Exploratory Data Analysis**
+This section focuses on identifying key patterns and relationships in the data that influence customer churn. Rather than listing all intermediate steps, it highlights the most meaningful insights.
 
-Analysis was performed to compare churned vs non-churned customers across key variables such as age, balance, geography, and engagement.
+### **1.
+*
+
+### **2.
+*
+
+### **3.
+*
+
+### **4.
+*
+
+### **5.
+*
+
+### **6.
+*
+
+### **7.
+*
+
+### **8.
+*
 
 ## 📈 **Power BI Dashboards**
 
