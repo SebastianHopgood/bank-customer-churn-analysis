@@ -95,7 +95,7 @@ This section focuses on identifying key patterns and relationships in the data t
 * Female customers exhibit a notably higher churn rate (25%) compared to males (16%).
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/gender_vs_churn_rate.sql)
 
-### **6. Num of Products vs Churn Rate**
+### **6. Number of Products vs Churn Rate**
 * Customers with 2–3 products are the most loyal (12% churn), while those with only one product are twice as likely to leave (28%), and those with 4+ products show a 100% churn rate.
 * Note, 4+ products has a low sample size of 60/10000 customers which is not enough to determine an accurate answer.
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/num_of_products_vs_churn_rate.sql)
