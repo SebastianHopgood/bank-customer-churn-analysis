@@ -57,6 +57,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 * Standardized column names to lowercase with snake_case formatting for consistency  
 * Example: HasCrCard → has_credit_card, NumOfProducts → num_of_products
 * Values for Balance and EstimatedSalary are assumed to be in EUR based on dataset context
+* Rounding columns 'Balance' and 'EstimatedSalary' to 1 decimal point
 
 ### **5. Feature Engineering**
 * Created Age groups (18-30, 31-50, 51+)
