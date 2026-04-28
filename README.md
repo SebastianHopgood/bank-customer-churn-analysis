@@ -64,8 +64,10 @@ The bank is experiencing customer attrition and wants to understand why customer
 * Developed Balance groups (Low/Meduim/High)
 * Organized Tenure groups (New = 0-2, Mid = 3-6, Long-Term = 7+)
 * Generated NumOfProducts groups (1 product, 2-3 products, 4 products)
+
 **Picture of Data Preperation Code:**
-* ![image alt]()
+* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/0e47f52c800b2e3e0c49658f87b79d332132d56a/sql/data%20cleaning/cleanning_raw_data_readme_picture.png)
+
 ## 🔍 **Exploratory Data Analysis**
 
 Analysis was performed to compare churned vs non-churned customers across key variables such as age, balance, geography, and engagement.
