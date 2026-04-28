@@ -108,8 +108,26 @@ This section focuses on identifying key patterns and relationships in the data t
 * ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/f39ea00025efa90e2e411677a476fe3bdafc4b78/images/code%20pictures/risk_calculator_readme_picture.png)
 
 ## 📈 **Power BI Dashboards**
+The visualization phase is split into two strategic layers to move from broad context to actionable customer churn insights.
 
-An interactive dashboard was built to visualize churn rates, customer segments, and key drivers of churn for business interpretation.
+**Page 1: Market Overview (The "Baseline")**
+
+Before analyzing why customers leave, it is critical to understand the bank's current footprint. This page provides a comprehensive profile of the 10,000 customers to establish a "source of truth" for stakeholders to relate it to sample size and total customer contributions for each grouping. 
+
+**Key points to take away from Market Overview:**
+* temp
+
+* Dashboard Preview:**
+* ![image alt]()
+
+**Page 2: Churn Breakdown (The "Diagnostic")**
+Once the baseline is established, this page isolates the variables driving customer chrum changes.
+
+**Key points to take away from Churn Breakdown:**
+* temp
+
+* Dashboard Preview:**
+* ![image alt]()
 
 ## 💡 **Recommendations**
 
