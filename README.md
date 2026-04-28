@@ -77,23 +77,27 @@ This section focuses on identifying key patterns and relationships in the data t
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/age_group_vs_churn_rate.sql)
 
 ### **2. Active Member vs Churn Rate**
-* 
+* Active members show a significantly lower churn rate (14%) compared to inactive members (27%), suggesting that customer engagement is strongly linked to retention.
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/active_member_vs_churn_rate.sql)
 
 ### **3. Balance Group vs Churn Rate**
-*
+* The High Balance group is the primary concern, with a 25% churn rate across nearly 4,800 customers.
+* The data suggests as balance increases, so does the likelihood of churn.
+* Note, low balance group has the highest churn rate although the sample size of 77/10000 customers which is not enough to determine an accurate answer.
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/balance_group_vs_churn_rate.sql)
 
 ### **4. Country vs Churn Rate**
-*
+* Germany has the highest churn rate (32%), while Spain (17%) and France (16%) are significantly lower.
+* France makes up 1/2 of the customers, while Germany and Spain both contribute 1/4 each to total customers.
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/country_vs_churn_rate.sql)
 
 ### **5. Gender vs Churn Rate**
-*
+* Female customers exhibit a notably higher churn rate (25%) compared to males (16%).
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/gender_vs_churn_rate.sql)
 
 ### **6. Num of Products vs Churn Rate**
-*
+* Customers with 2–3 products are the most loyal (12% churn), while those with only one product are twice as likely to leave (28%), and those with 4+ products show a 100% churn rate.
+* Note, 4+ products has a low sample size of 60/10000 customers which is not enough to determine an accurate answer.
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/num_of_products_vs_churn_rate.sql)
 
 ## 📈 **Power BI Dashboards**
