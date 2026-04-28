@@ -1,3 +1,4 @@
+
 -- Create a cleaned and transformed version of the raw customer dataset
 CREATE OR REPLACE TABLE `named-foundry-494619-d0.customer_churn.customers_cleaned` AS
 
@@ -17,10 +18,10 @@ SELECT
   ROUND(Balance, 1) AS balance,
   ROUND(EstimatedSalary, 1) AS estimated_salary,
 
-  -- Convert binary indicators to boolean for proper data validation
-  SAFE_CAST(HasCrCard AS BOOL) AS has_credit_card,
-  SAFE_CAST(IsActiveMember AS BOOL) AS is_active_member,
-  SAFE_CAST(Exited AS BOOL) AS exited,
+  -- Convert binary indicators to INT64 so aggregations can be applied to them
+  SAFE_CAST(HasCrCard AS INT64) AS has_credit_card,
+  SAFE_CAST(IsActiveMember AS INT64) AS is_active_member,
+  SAFE_CAST(Exited AS INT64) AS exited,
 
 
 -- Age segmentation for customer profiling
