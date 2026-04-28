@@ -72,29 +72,29 @@ The bank is experiencing customer attrition and wants to understand why customer
 ## 🔍 **Exploratory Data Analysis**
 This section focuses on identifying key patterns and relationships in the data that influence customer churn. Rather than listing all intermediate steps, it highlights the most meaningful insights.
 
-### **1.
+### **1. Age Group vs Churn Rate**
 *
+* [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/age_group_vs_churn_rate.sql)
 
-### **2.
+### **2. Active Memmber vs Churn Rate**
 *
+* [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/active_member_vs_churn_rate.sql)
 
-### **3.
+### **3. Balance Group vs Churn Rate**
 *
+* [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/balance_group_vs_churn_rate.sql)
 
-### **4.
+### **4. Country vs Churn Rate**
 *
+* [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/country_vs_churn_rate.sql)
 
-### **5.
+### **5. Gender vs Churn Rate**
 *
+* [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/gender_vs_churn_rate.sql)
 
-### **6.
+### **6. Num of Products vs Churn Rate**
 *
-
-### **7.
-*
-
-### **8.
-*
+* [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/num_of_products_vs_churn_rate.sql)
 
 ## 📈 **Power BI Dashboards**
 
