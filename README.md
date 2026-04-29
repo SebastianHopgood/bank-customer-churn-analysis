@@ -118,7 +118,7 @@ Before analyzing why customers leave, it is critical to understand the bank's cu
 * temp
 
 **Dashboard Preview:**
-* ![image alt]()
+* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/a25cf9b1078ed817c1a7a61b7a526887cd98d266/images/dashboard%20pictures/bank_market_overview_picture.png)
 
 **Page 2: Customer Churn Breakdown (The "Diagnostic")**
 Once the baseline is established, this page isolates the variables driving customer chrum changes.
