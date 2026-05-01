@@ -110,6 +110,9 @@ This section focuses on identifying key patterns and relationships in the data t
 ## 📈 **Power BI Dashboards**
 The visualization phase is split into two strategic layers to move from broad context to actionable customer churn insights.
 
+**Interactive Dashbaord:**
+* [View Bank Customer Churn Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDRmNmMxZjAtMWE2ZC00MTNkLWEyNWUtOGE5NDdkMjU1YTgxIiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=d4bd007573434a6a0986)
+
 **Page 1: Bank Market Overview (The "Baseline")**
 
 Before analyzing why customers leave, it is critical to understand the bank's current footprint. This page provides a comprehensive profile of the 10,000 customers to establish a "source of truth" for stakeholders to relate it to sample size and total customer contributions for each grouping. 
