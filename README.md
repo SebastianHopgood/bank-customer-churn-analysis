@@ -1,4 +1,4 @@
-# 🏦 **Bank Customer Churn Analysis**
+# 🏦 **Bank Customer Churn Analysis & Risk Mitigation**
 
 ## 📌 **Project Overview**
 
