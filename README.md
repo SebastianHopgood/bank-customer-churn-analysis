@@ -115,13 +115,13 @@ The visualization phase is split into two strategic layers to move from broad co
 Before analyzing why customers leave, it is critical to understand the bank's current footprint. This page provides a comprehensive profile of the 10,000 customers to establish a "source of truth" for stakeholders to relate it to sample size and total customer contributions for each grouping. 
 
 **Key points to take away from Market Overview:**
-* Geographic Distribution: France accounts for 50% of the customer base, while Germany and Spain each hold 25%.
-* Balance Distribution: Customer balances are highly polarized, with most individuals falling into either the "Low" or "High" balance brackets.
-* Product Penetration: 99% of customers hold 1–3 products; adoption of 4+ products is extremely rare (0.77%).
-* Customer Tenure: The portfolio is primarily mid-term, with 35.3% of the total base (approx. 3,500 customers) remaining long-term.
-* Demographics: The majority of the customer base is female and falls within the middle-age bracket.
-* Risk Profile: The portfolio is segmented into Low Risk (2k), Medium Risk (4.4k), and Critical Risk (3.6k) categories.
-* Key Performance Indicators (KPIs):
+* **Geographic Distribution:** France accounts for 50% of the customer base, while Germany and Spain each hold 25%.
+* **Balance Distribution:** Customer balances are highly polarized, with most individuals falling into either the "Low" or "High" balance brackets.
+* **Product Penetration:** 99% of customers hold 1–3 products; adoption of 4+ products is extremely rare (0.77%).
+* **Customer Tenure:** The portfolio is primarily mid-term, with 35.3% of the total base (approx. 3,500 customers) remaining long-term.
+* **Demographics:** The majority of the customer base is female and falls within the middle-age bracket.
+* **Risk Profile:** The portfolio is segmented into Low Risk (2k), Medium Risk (4.4k), and Critical Risk (3.6k) categories.
+* **Key Performance Indicators (KPIs):**
   * Total Customers: 10,000
   * Average Age: 38.9 years
   * Average Tenure: 5 years
@@ -134,22 +134,30 @@ Before analyzing why customers leave, it is critical to understand the bank's cu
 Once the baseline is established, this page isolates the variables driving customer chrum changes.
 
 **Key points to take away from Churn Breakdown:**
-* Overall Churn Rate: The benchmark churn rate for the portfolio is 20.4%.
-* Balance vs. Churn Correlation: A direct correlation exists between higher account balances and increased churn risk. While the "low balance" segment shows the highest nominal rate, the small sample size (0.77% of customers) requires further validation.
-* Demographic Vulnerability:
-   * Age: Customers aged 40–60 exhibit the highest attrition rate across all age brackets.
-   * Gender: Females have a significantly higher churn rate (25%) compared to males (16%).
-* Critical Risk Profile: Customers classified as "Critical Risk" have a 41.7% churn rate. Typical attributes in this segment include:
+* **Overall Churn Rate:** The benchmark churn rate for the bank is 20.4%.
+* **Balance vs. Churn Correlation:** A direct correlation exists between higher account balances and increased churn risk. While the "low balance" segment shows the highest nominal rate, the small sample size (0.77% of customers) requires further validation.
+* **Demographic Vulnerability:**
+   * **Age:** Customers aged 40–60 exhibit the highest attrition rate across all age brackets.
+   * **Gender:** Females have a significantly higher churn rate (25%) compared to males (16%).
+* **Critical Risk Profile:** Customers classified as "Critical Risk" have a 41.7% churn rate. Typical attributes in this segment include:
   * Ages 40–59 and female.
   * High account balances in Germany.
-  * Inactive membership status.Holding only 1 or 4+ products.
-* Product "Sweet Spot": Holding 2–3 products is the optimal engagement level, resulting in the lowest observed churn rates.
-* Geographic Risk: Germany is the highest-risk region, with more total churned customers than France and Spain combined
+  * Inactive membership status.
+  * Holding only 1 or 4+ products.
+* **Product "Sweet Spot":** Holding 2–3 products is the optimal engagement level, resulting in the lowest observed churn rates.
+* **Geographic Risk:** Germany is the highest-risk region, with more total churned customers than France and Spain combined
 
 **Dashboard Preview:**
 * ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/882e7e95ac359ab3c072768b4b1c9d7589075d81/images/dashboard%20pictures/customer_churn_breakdown_dashboard_preview.png)
 
 ## 💡 **Recommendations**
+
+* **Targeted Retention for "Critical Risk" Segments:** Implement a loyalty or "save" program specifically for female customers in Germany aged 40–60. This segment represents the highest concentration of churn and "Balance at Risk."
+* **Product Diversification:** Since 2–3 products is the "sweet spot" for retention, launch a cross-selling campaign to move customers holding only 1 product into a 2-product tier.
+* **Re-engagement of Inactive Members:** With inactive members churning at 26.9%, the bank should use personalized email triggers or interest-rate incentives to bring inactive users back into the app or service.
+* **Balance-Tier Incentives:** High-balance customers are churning at a higher rate. The bank should offer "Premier" or "Gold" tier benefits (e.g., dedicated support, better rates) to high-value individuals to increase their switching costs.
+* **Germany-Specific Market Research:** Conduct a deep dive into the German market. Since its churn is higher than France and Spain combined, there may be a competitive local bank or a specific service gap in that region.
+* **Address the "4+ Product" Outlier:** Investigate why churn spikes for the 77 customers with 4+ products. This often indicates "product fatigue" or poor user experience when managing multiple accounts.
 
 Key patterns in churn behavior were identified, and actionable recommendations were provided to improve customer retention.
 
