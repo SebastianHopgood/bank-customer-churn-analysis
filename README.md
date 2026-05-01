@@ -111,7 +111,8 @@ This section focuses on identifying key patterns and relationships in the data t
 The visualization phase is split into two strategic layers to move from broad context to actionable customer churn insights.
 
 **Interactive Dashbaord:**
-* [View Bank Customer Churn Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDRmNmMxZjAtMWE2ZC00MTNkLWEyNWUtOGE5NDdkMjU1YTgxIiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=d4bd007573434a6a0986)
+* A comprehensive look at market demographics and specific churn risk factors.
+* (Ctrl/Cmd + Click to open in new tab): [View Bank Customer Churn Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDRmNmMxZjAtMWE2ZC00MTNkLWEyNWUtOGE5NDdkMjU1YTgxIiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=d4bd007573434a6a0986)
 
 **Page 1: Bank Market Overview (The "Baseline")**
 
@@ -151,8 +152,7 @@ Once the baseline is established, this page isolates the variables driving custo
 * **Geographic Risk:** Germany is the highest-risk region, with more total churned customers than France and Spain combined
 
 **Dashboard Preview:**
-* A comprehensive look at market demographics and specific churn risk factors.
-* (Ctrl/Cmd + Click to open in new tab): ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/882e7e95ac359ab3c072768b4b1c9d7589075d81/images/dashboard%20pictures/customer_churn_breakdown_dashboard_preview.png)
+* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/882e7e95ac359ab3c072768b4b1c9d7589075d81/images/dashboard%20pictures/customer_churn_breakdown_dashboard_preview.png)
 
 ## 💡 **Recommendations**
 
