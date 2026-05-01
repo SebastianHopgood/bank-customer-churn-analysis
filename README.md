@@ -151,7 +151,8 @@ Once the baseline is established, this page isolates the variables driving custo
 * **Geographic Risk:** Germany is the highest-risk region, with more total churned customers than France and Spain combined
 
 **Dashboard Preview:**
-* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/882e7e95ac359ab3c072768b4b1c9d7589075d81/images/dashboard%20pictures/customer_churn_breakdown_dashboard_preview.png)
+* A comprehensive look at market demographics and specific churn risk factors.
+* (Ctrl/Cmd + Click to open in new tab): ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/882e7e95ac359ab3c072768b4b1c9d7589075d81/images/dashboard%20pictures/customer_churn_breakdown_dashboard_preview.png)
 
 ## 💡 **Recommendations**
 
