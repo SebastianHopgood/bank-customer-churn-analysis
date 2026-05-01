@@ -73,7 +73,7 @@ The bank is experiencing customer attrition and wants to understand why customer
 This section focuses on identifying key patterns and relationships in the data that influence customer churn. Rather than listing all intermediate steps, it highlights the most meaningful insights.
 
 ### **1. Age Group vs Churn Rate**
-* Older customers have significantly higher churn (45%) compared to younger customers (8%), indicating that churn risk increases with age.
+* Middle aged people ages 50-59 have the highest churn rate (56%). Age groups 40-49 and 60-69 also have high churn rates which are 31% and 35%.
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/age_group_vs_churn_rate.sql)
 
 ### **2. Active Member vs Churn Rate**
@@ -101,8 +101,8 @@ This section focuses on identifying key patterns and relationships in the data t
 * [View SQL Query](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/3c1277b6de565995a52534455967439263b34a3a/sql/analysis_queries/num_of_products_vs_churn_rate.sql)
 
 ### **7. Creating a Risk Score Calculator**
-* By using the previous 6 analysis queries I was able to develop a calculator to predict weather customers are at high risk or low risk. I added 2 columns 'risk_score' and 'risk_group'.
-* Here are the percentages each risk group came out to: Critical Risk = 45%, Medium Risk = 19%, Low Risk = 8%.
+* By using the previous 6 analysis queries I was able to develop a calculator to predict weather customers are at low, medium and critical risk. I added 2 columns 'risk_score' and 'risk_group'.
+* Here is the churn rate for each risk group: Critical Risk = 42%, Medium Risk = 11%, Low Risk = 3%.
 
 **Picture of Risk Calculator Query:**
 * ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/fe012f24e12a7503b494818629c650f4dc1bd714/images/code%20pictures/risk_calculator_readme.png)
