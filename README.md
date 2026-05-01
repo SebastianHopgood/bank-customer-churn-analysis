@@ -165,12 +165,12 @@ Key patterns in churn behavior were identified, and actionable recommendations w
 
 **Data Limitations:**
 
-* Lack of Qualitative Context: The dataset lacks primary feedback (e.g., NPS scores or exit surveys), preventing a root-cause analysis of why German and middle-aged female segments are churning at higher rates.
-* Class Imbalance: The "4+ Product" segment represents less than 1% of the population (n=77), making it statistically difficult to draw definitive conclusions for that specific sub-group.
-* Lack of Temporal Data: The absence of timestamps or dates prevents a Time-Series Analysis. We cannot identify seasonal trends, "churn velocity," or the specific time of year attrition peaks.
+* **Lack of Qualitative Context:** The dataset lacks primary feedback (e.g., NPS scores or exit surveys), preventing a root-cause analysis of why German and middle-aged female segments are churning at higher rates.
+* **Class Imbalance:** The "4+ Product" segment represents less than 1% of the population (n=77), making it statistically difficult to draw definitive conclusions for that specific sub-group.
+* **Lack of Temporal Data:** The absence of timestamps or dates prevents a Time-Series Analysis. We cannot identify seasonal trends, "churn velocity," or the specific time of year attrition peaks.
 
 **Future Work:**
-* Predicting Churn: Use the patterns I found to build a tool that flags "at-risk" customers before they actually leave.
-* Financial Impact: Calculate exactly how much money the bank saves for every 1% of churn we stop.
-* Look at other banks in Germany to see if they are offering better deals that are pulling our customers away.
-* Include date data gathering to do time-series analysis to find deeper trends.
+* **Predicting Churn:** Use the patterns I found to build a tool that flags "at-risk" customers before they actually leave.
+* **Financial Impact:** Calculate exactly how much money the bank saves for every 1% of churn we stop.
+* **Competitor Research** Look at other banks in Germany to see if they are offering better deals that are pulling our customers away.
+* **Add Time Series Data:** Include date data gathering to do time-series analysis to find deeper trends.
