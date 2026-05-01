@@ -134,7 +134,8 @@ Before analyzing why customers leave, it is critical to understand the bank's cu
 Once the baseline is established, this page isolates the variables driving customer chrum changes.
 
 **Key points to take away from Churn Breakdown:**
-* Overall Churn Rate: The benchmark churn rate for the portfolio is 20.4%.Balance vs. Churn Correlation: A direct correlation exists between higher account balances and increased churn risk. While the "low balance" segment shows the highest nominal rate, the small sample size (0.77% of customers) requires further validation.
+* Overall Churn Rate: The benchmark churn rate for the portfolio is 20.4%.
+* Balance vs. Churn Correlation: A direct correlation exists between higher account balances and increased churn risk. While the "low balance" segment shows the highest nominal rate, the small sample size (0.77% of customers) requires further validation.
 * Demographic Vulnerability:
    * Age: Customers aged 40–60 exhibit the highest attrition rate across all age brackets.
    * Gender: Females have a significantly higher churn rate (25%) compared to males (16%).
@@ -142,7 +143,7 @@ Once the baseline is established, this page isolates the variables driving custo
   * Ages 40–59 and female.
   * High account balances in Germany.
   * Inactive membership status.Holding only 1 or 4+ products.
-  * Product "Sweet Spot": Holding 2–3 products is the optimal engagement level, resulting in the lowest observed churn rates.
+* Product "Sweet Spot": Holding 2–3 products is the optimal engagement level, resulting in the lowest observed churn rates.
 * Geographic Risk: Germany is the highest-risk region, with more total churned customers than France and Spain combined
 
 **Dashboard Preview:**
