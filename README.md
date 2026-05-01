@@ -6,7 +6,7 @@ This project analyzes customer churn behavior using a banking dataset containing
 
 ## ❓ **Problem Statement**
 
-The bank is experiencing customer attrition and wants to understand why customers are leaving. The objective of this analysis is to identify the key drivers of churn by comparing churned and retained customers across demographic, financial, and behavioral factors, and to provide data-driven recommendations to improve customer retention.
+The bank is currently facing a 20.4% customer churn rate, with a significant $384.64M in balance at risk. While 51.5% of the customer base remains active, a critical segment—primarily middle-aged female customers in Germany with high account balances—is churning at an accelerated rate.
 
 ## 📊 **Understanding Data**
 
