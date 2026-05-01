@@ -105,7 +105,7 @@ This section focuses on identifying key patterns and relationships in the data t
 * Here are the percentages each risk group came out to: Critical Risk = 45%, Medium Risk = 19%, Low Risk = 8%.
 
 **Picture of Risk Calculator Query:**
-* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/f39ea00025efa90e2e411677a476fe3bdafc4b78/images/code%20pictures/risk_calculator_readme_picture.png)
+* ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/fe012f24e12a7503b494818629c650f4dc1bd714/images/code%20pictures/risk_calculator_readme.png)
 
 ## 📈 **Power BI Dashboards**
 The visualization phase is split into two strategic layers to move from broad context to actionable customer churn insights.
