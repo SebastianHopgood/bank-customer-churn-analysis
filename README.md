@@ -115,7 +115,17 @@ The visualization phase is split into two strategic layers to move from broad co
 Before analyzing why customers leave, it is critical to understand the bank's current footprint. This page provides a comprehensive profile of the 10,000 customers to establish a "source of truth" for stakeholders to relate it to sample size and total customer contributions for each grouping. 
 
 **Key points to take away from Market Overview:**
-* temp
+* Geographic Distribution: France accounts for 50% of the customer base, while Germany and Spain each hold 25%.
+* Balance Distribution: Customer balances are highly polarized, with most individuals falling into either the "Low" or "High" balance brackets.
+* Product Penetration: 99% of customers hold 1–3 products; adoption of 4+ products is extremely rare (0.77%).
+* Customer Tenure: The portfolio is primarily mid-term, with 35.3% of the total base (approx. 3,500 customers) remaining long-term.
+* Demographics: The majority of the customer base is female and falls within the middle-age bracket.
+* Risk Profile: The portfolio is segmented into Low Risk (2k), Medium Risk (4.4k), and Critical Risk (3.6k) categories.
+* Key Performance Indicators (KPIs):
+  * Total Customers: 10,000
+  * Average Age: 38.9 years
+  * Average Tenure: 5 years
+  * Activity Rate: 51.5% of lifetime customers remain active.
 
 **Dashboard Preview:**
 * ![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/9cca5c8276c229bb766ca7f0774e83c792012801/images/dashboard%20pictures/bank_market_overview_dashboard_preview_done.png)
