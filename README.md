@@ -4,7 +4,7 @@
 
 To identify the key drivers of churn across demographic and financial factors and provide actionable strategies to protect high-value balances and improve retention.
 
-![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/882e7e95ac359ab3c072768b4b1c9d7589075d81/images/dashboard%20pictures/customer_churn_breakdown_dashboard_preview.png)
+(Ctrl/Cmd + Click to open in new tab): [View Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMDRmNmMxZjAtMWE2ZC00MTNkLWEyNWUtOGE5NDdkMjU1YTgxIiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=d4bd007573434a6a0986)
 
 ## ❓ **Problem Statement**
 
