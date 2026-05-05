@@ -4,6 +4,8 @@
 
 To identify the key drivers of churn across demographic and financial factors and provide actionable strategies to protect high-value balances and improve retention.
 
+![image alt](https://github.com/SebastianHopgood/bank-customer-churn-analysis/blob/882e7e95ac359ab3c072768b4b1c9d7589075d81/images/dashboard%20pictures/customer_churn_breakdown_dashboard_preview.png)
+
 ## ❓ **Problem Statement**
 
 The bank is currently facing a 20.4% customer churn rate, with a significant $384.64M in balance at risk. While 51.5% of the customer base remains active, a critical segment—primarily middle-aged female customers in Germany with high account balances—is churning at an accelerated rate.
